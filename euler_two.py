@@ -1,7 +1,7 @@
 begin=1
 end=100
-F=[]
-Even=[]
+f=[]
+even_nums=[]
 
 def even(x):
         if (x % 2 == 0):
@@ -10,16 +10,16 @@ def even(x):
 def answer():
         for y in range(begin,end):
                 if i > 2:
-                        y=F[i-2]+FSeq[i-3]
-                        F.append(brev)
+                        y=f[i-2]+f[i-3]
+                        f.append(even)
                 else:
-                        F.append(i)
+                        f.append(i)
 
 
         for l in FS:
                 if even(l) and l < 4000000:
-                        Even.append(l)
-        print sum(Even)
+                        even.append(l)
+        print sum(even)
 
 
 solution()
