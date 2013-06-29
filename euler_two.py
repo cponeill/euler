@@ -16,10 +16,10 @@ def answer():
                         f.append(i)
 
 
-        for l in FS:
+        for l in f:
                 if even(l) and l < 4000000:
                         even.append(l)
         print sum(even)
 
 
-solution()
+solution(100)
